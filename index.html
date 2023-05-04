@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de contacto</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<div class="formulario">
+		<h2>Formulario de contacto</h2>
+		<form id="miFormulario" action="https://script.google.com/macros/s/AKfycbzBXAV9fiFml8-cjtjmfdDygW50M3sAYBOOjbhKCE1f7QlE21-n1VIWDeeHxPSPx3Nn/exec" method="post">
+			<div class="fila">
+				<label for="nombre">Nombre completo:</label>
+				<input type="text" id="nombre" name="nombre" >
+			</div>
+			<div class="fila">
+				<label for="email">Correo electrónico:</label>
+				<input type="email" id="email" name="email" >
+			</div>
+			<div class="fila">
+				<label for="telefono">Teléfono:</label>
+				<input type="tel" id="telefono" name="telefono">
+			</div>
+			<div class="fila">
+				<label for="asunto">Asunto:</label>
+				<input type="text" id="asunto" name="asunto">
+			</div>
+			<div class="fila">
+				<label for="mensaje">Mensaje:</label>
+				<textarea id="mensaje" name="mensaje"></textarea>
+			</div>
+			<div class="fila">
+				<input type="submit" value="Enviar">
+			</div>
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
